@@ -1,64 +1,36 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<p class="section-intro">A concise academic CV. A downloadable PDF can be linked here when available.</p>
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+<div class="profile-actions profile-actions--page">
+  <a class="profile-button profile-button--primary" href="mailto:gangys@bit.edu.cn"><i class="fas fa-envelope" aria-hidden="true"></i> Contact</a>
+  <span class="profile-button profile-button--disabled"><i class="fas fa-file-pdf" aria-hidden="true"></i> PDF coming soon</span>
+</div>
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Education
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **Ph.D. Student**, Beijing Institute of Technology, China — Current
+- **M.S. (Hons.), Information and Communication Engineering**, Beijing Information Science and Technology University — 2026
+- **B.S., Electronic Information Engineering**, Beijing Information Science and Technology University — 2023
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Research Interests
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+- Integrated Sensing and Communication
+- Reconfigurable Antennas
+- Near-Field Communications
+- Space–Air–Ground Integrated Networks
+
+## Publications
+
+Publication entries will be added after the bibliography is finalized. See the [Publications](/publications/) page for the prepared format.
+
+## Awards & Academic Service
+
+This section is reserved for awards, scholarships, reviewing, committee roles, and professional memberships.

@@ -3,34 +3,49 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+page_class: publications-page
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<h2>Journal/Magazine Papers</h2>
 
-{% include base_path %}
+<ol class="publication-list">
+  <li>Yuexia Zhang, <strong>Yuanshuo Gang</strong>, Peng Wu, Guangteng Fan, Wenjun Xu, Bo Ai, and Qingqing Wu. Integrated Sensing, Communication, and Computation in SAGIN: Joint Beamforming and Resource Allocation. <strong class="publication-venue">IEEE Transactions on Cognitive Communications and Networking</strong>, October 2025. <a class="publication-paper-link" href="https://ieeexplore.ieee.org/document/11027594/">[Paper URL]</a>. <span class="publication-note">(Supervisor as First Author)</span> <span class="publication-note publication-note--highlight">(ESI Hot Paper)</span> <span class="publication-note publication-note--highlight">(Popular Paper)</span></li>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  <li>Yuexia Zhang, <strong>Yuanshuo Gang</strong>, Tianqi Mao, Ruiqi Liu, Meng Hua, and Qingqing Wu. LEO Satellite-Enabled ISAC: Bistatic Framework and Beamforming Design. <strong class="publication-venue">IEEE Transactions on Vehicular Technology</strong>, April 2026. <a class="publication-paper-link" href="https://ieeexplore.ieee.org/document/11488929/">[Paper URL]</a>. <span class="publication-note">(Supervisor as First Author)</span></li>
 
+  <li><strong>Yuanshuo Gang</strong>, Yuexia Zhang, and Xinyi Wang. UAV-Assisted Full-Duplex ISAC: Joint Communication Scheduling, Beamforming, and Trajectory Optimization. <strong class="publication-venue">Digital Communications and Networks</strong>, October 2025. <a class="publication-paper-link" href="https://doi.org/10.1016/j.dcan.2025.03.001">[Paper URL]</a>.</li>
 
+  <li>Yuexia Zhang, <strong>Yuanshuo Gang</strong>, Yunong Yang, Yang Tian, Siyu Zhang, Zhengyu Zhao, and Guan Gui. A Novel Internet of Things Botnet Propagation Process and Defense Strategy. <strong class="publication-venue">IEEE Transactions on Network Science and Engineering</strong>, 2026. <a class="publication-paper-link" href="https://ieeexplore.ieee.org/document/11320855/">[Paper URL]</a>. <span class="publication-note">(Supervisor as First Author)</span></li>
 
+  <li>Ruiqi Liu, <strong>Yuanshuo Gang</strong><sup>*</sup>, Honghao Wang, and Tianqi Mao. Movable Subarray-Aided ISAC in Hybrid Near-Far Field Channels. <strong class="publication-venue">arXiv</strong>, August 2026. <a class="publication-paper-link" href="https://arxiv.org/abs/2608.01854">[Paper URL]</a>.</li>
+
+  <li><strong>Yuanshuo Gang</strong>, Yuexia Zhang, and Zhihai Zhuo. Joint Task Offloading and Resource Allocation Strategy for Space-Air-Ground Integrated Vehicular Networks. <strong class="publication-venue">Tsinghua Science and Technology</strong>, June 2025. <a class="publication-paper-link" href="https://ieeexplore.ieee.org/document/10574209/">[Paper URL]</a>.</li>
+
+  <li><strong>Yuanshuo Gang</strong>, Yuexia Zhang, Peng Wu, Hui Zheng, and Guangteng Fan. A Study for Inter-Satellite Cooperative Computation Offloading in LEO Satellite Networks. <strong class="publication-venue">China Communications</strong>, February 2025. <a class="publication-paper-link" href="https://ieeexplore.ieee.org/document/10906314/">[Paper URL]</a>.</li>
+
+  <li>Yuexia Zhang, <strong>Yuanshuo Gang</strong>, Shiru Duan, and Yu Wang. Intelligent Reflecting Surface-Assisted Combined TOA and AOA Localization Algorithm. <strong class="publication-venue">KSII Transactions on Internet and Information Systems</strong>, April 2025. <a class="publication-paper-link" href="https://doi.org/10.3837/tiis.2025.04.016">[Paper URL]</a>. <span class="publication-note">(Supervisor as First Author)</span></li>
+
+  <li>Yuexia Zhang, Xinyi Wang, <strong>Yuanshuo Gang</strong>, Jian Wang, Sheng Wu, Peiying Zhang, and Yuanming Shi. 6G SAGIN Information Transmission Model. <strong class="publication-venue">IEEE Communications Magazine</strong>, June 2025. <a class="publication-paper-link" href="https://ieeexplore.ieee.org/document/10829750/">[Paper URL]</a>. <span class="publication-note publication-note--highlight">(ESI Highly Cited Paper)</span></li>
+
+  <li>Zhengyu Zhao, <strong>Yuanshuo Gang</strong>, and Yuexia Zhang. Near-Field Full-Duplex ISAC Transceiver Hybrid Beamforming Design. <strong class="publication-venue">IEEE Transactions on Consumer Electronics</strong>, February 2026. <a class="publication-paper-link" href="https://ieeexplore.ieee.org/document/11367042/">[Paper URL]</a>.</li>
+
+  <li>Ruiqi Liu, Leyi Zhang, <strong>Yuanshuo Gang</strong>, Tianqi Mao, Qingqing Wu, and Abbas Jamalipour. Sensing With Unknown Signals: ISAC Enabled Distributed Passive Sensing for Multi-Target Detection and Localization. <strong class="publication-venue">IEEE Transactions on Network Science and Engineering</strong>, March 2026. <a class="publication-paper-link" href="https://ieeexplore.ieee.org/document/11424004/">[Paper URL]</a>.</li>
+
+  <li>Yuexia Zhang, Xinyi Wang, <strong>Yuanshuo Gang</strong>, Hui Tian, and Dusit Niyato. Evolutionary Game Resource Distribution Strategy for 6G SAGIN. <strong class="publication-venue">IEEE Transactions on Vehicular Technology</strong>, June 2026. <a class="publication-paper-link" href="https://ieeexplore.ieee.org/document/11267223/">[Paper URL]</a>.</li>
+
+  <li>Yuexia Zhang, Changbao Liu, <strong>Yuanshuo Gang</strong>, and Yu Wang. TDOA-AOA Localization Algorithm for 5G Intelligent Reflecting Surfaces. <strong class="publication-venue">Electronics</strong>, November 2024. <a class="publication-paper-link" href="https://doi.org/10.3390/electronics13224347">[Paper URL]</a>.</li>
+</ol>
+
+<p class="publication-footnote"><sup>*</sup> Corresponding Author</p>
+
+<h2>Conference Papers</h2>
+
+<ol class="publication-list">
+  <li><strong>Yuanshuo Gang</strong> and Yuexia Zhang. Beamforming Design for LEO Satellite-Enabled Bistatic ISAC System. <strong class="publication-venue">2025 IEEE 36th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)</strong>, September 2025. <a class="publication-paper-link" href="https://ieeexplore.ieee.org/document/11275359/">[Paper URL]</a>.</li>
+
+  <li><strong>Yuanshuo Gang</strong> and Yuexia Zhang. Joint Transceiver Beamforming Design for UAV-Assisted Full-Duplex ISAC. <strong class="publication-venue">Proceedings of the 2nd International Conference on Networks, Communications and Intelligent Computing (NCIC 2024)</strong>, 2024. <a class="publication-paper-link" href="https://link.springer.com/chapter/10.1007/978-981-96-5006-4_50">[Paper URL]</a>.</li>
+
+  <li>Shiqi Cui, Fan Zhang, <strong>Yuanshuo Gang</strong>, Zeping Sui, Tianqi Mao, and Zhaocheng Wang. Adaptive c<sub>2</sub>-Perturbed AFDM Waveform Design for Integrated Sensing and Communication. <strong class="publication-venue">2026 IEEE Global Communications Conference (GLOBECOM)</strong>, 2026, Accepted. <a class="publication-paper-link" href="https://arxiv.org/abs/2606.04698">[Paper URL]</a>.</li>
+
+  <li>Shufeng Tan, Fei Luo, <strong>Yuanshuo Gang</strong>, and Liang Fang. Joint Transmit and Receive Beamforming Design for Cell-Free ISAC MIMO Systems. <strong class="publication-venue">2026 IEEE Wireless Communications and Networking Conference Workshops (WCNCW)</strong>, April 2026. <a class="publication-paper-link" href="https://ieeexplore.ieee.org/document/11555738/">[Paper URL]</a>.</li>
+</ol>
