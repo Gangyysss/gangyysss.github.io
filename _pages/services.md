@@ -10,6 +10,7 @@ page_class: services-page
 
 <ul class="publication-list service-list">
   <li>IEEE Journal on Selected Areas in Communications</li>
+  <li>IEEE Transactions on Wireless Communications</li>
   <li>IEEE Transactions on Communications</li>
   <li>IEEE Transactions on Cognitive Communications and Networking</li>
   <li>IEEE Transactions on Vehicular Technology</li>
