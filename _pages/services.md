@@ -29,9 +29,10 @@ page_class: services-page
 <h2>TPC Member</h2>
 
 <ul class="publication-list service-list">
-  <li>2025 IEEE 36th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC'25)</li>
-  <li>2026 IEEE Wireless Communications and Networking Conference (WCNC'26)</li>
+  <li>2026 IEEE Global Communications Conference (GLOBECOM'26)</li>
   <li>2026 IEEE 37th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC'26)</li>
+  <li>2026 IEEE Wireless Communications and Networking Conference (WCNC'26)</li>
+  <li>2025 IEEE 36th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC'25)</li>
 </ul>
 
 <h2>Session Chair</h2>
