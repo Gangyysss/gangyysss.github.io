@@ -20,8 +20,10 @@ page_class: services-page
   <li>IEEE Open Journal of Vehicular Technology</li>
   <li>IEEE Wireless Communications</li>
   <li>IEEE Communications Magazine</li>
+  <li>Elsevier: Digital Communications and Networks</li>
   <li>Springer Nature: Wireless Networks</li>
   <li>Springer Nature: Discover Computing</li>
+  <li>Springer Nature: Discover Applied Sciences</li>
 </ul>
 
 <h2>TPC Member</h2>
